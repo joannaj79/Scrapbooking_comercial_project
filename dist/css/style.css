@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+* {
+  box-sizing: border-box;
+}
+
+/*-----Navigation Section -----*/
+
+
+/*------Slider Section -------*/
+
+header {
+  background: white;
+}
+
+header li {
+  display: inline-block;
+}
+
+header > nav ul {
+  padding: 0;
+  list-style-type: none;
+  font-family: "Dancing Script", cursive;
+  display: inline-block;
+  text-align: center;
+  float: right;
+}
+
+header > nav img {
+  padding: 10px 0;
+}
+
+/* header > nav ul > li > a {
+  height: 50px;
+  padding: 30px 20px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+} */
+
+header > nav ul > li > a:hover {
+  color: #44e4ed;
+}
+
+.row::after,
+.row::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row p {
+  text-align: center;
+  margin: 0;
+}
+
+nav .container {
+  max-width: 30%;
+}
+nav .logo h2 {
+  color: black;
+  font-size: 50px;
+  font-weight: 200px;
+  font-family: "Dancing Script", cursive;
+  height: 110px;
+}
+.navigation ul li a {
+  display: block;
+  position: absolute;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+}
+.menu ul li a {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.navigation:hover .carousel {
+  margin-top: 50vh;
+}
+.carouselContainer {
+  max-width: 80%;
+  height: 30%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.carousel img {
+  margin: 0 auto;
+  width: 100%;
+  height: 30%;
+}
+
+.socialMedia {
+  padding-left: 640px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.socialMedia .social .fa {
+  height: 70px;
+  width: 70px;
+  color: white;
+  border-radius: 30%;
+  background-color: black;
+  font-size: 30px;
+  cursor: pointer;
+  border: 0;
+  display: inline-block;
+  padding: 20px 3px;
+  margin: 40px;
+  text-align: center;
+}
+
+.social .fa:hover {
+  color: gold;
+  transition: 2s;
+  filter: brightness(80%);
+  opacity: 1;
+}
+
+.aboutMe {
+  background-color: black;
+  max-width: 80%;
+  margin-top: 10px;
+  padding-left: 250px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.aboutMe > h1,
+p {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+
+.aboutmeImages img {
+  display: inline-block;
+  width: 376px;
+  height: 250px;
+}
+
+.aboutmeImages {
+  margin-left: 20px;
+}
+
+.textBooking {
+  margin-top: 100px;
+  text-align: center;
+  color: black;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  height: 110px;
+}
+
+/* 
+.carousel-inner > .item > img .img-fluid {
+  max-width: 100%;
+  height: auto;
+} */
+
+.photoscontainer {
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 50px;
+}
+body {
+  background: white;
+  margin: 0 auto;
+}
+
+.photoscontainer img {
+  height: 80px;
+  width: 80px;
+}
+
+/* .contactForm {
+  background-image: url(https://cdn.pixabay.com/photo/2018/07/05/09/49/mailbox-3517967_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 600px;
+  padding-left: 50%;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 200px;
+  
+} */
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: white;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+/* .contactForm h1 {
+  padding-top: 50px;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-weight: 200px;
+  font-family: 'Dancing Script', cursive;
+  height: 110px;
+}*/
+.forms {
+  height: 30px;
+  width: 380px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  border-radius: 5%;
+  display: block;
+  vertical-align: 30px;
+  margin: 20px;
+  color: white;
+}
+
+.message {
+  height: 100px;
+  width: 380px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  color: white;
+  border-radius: 5%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 200px;
+  margin: 20px;
+}
+.button {
+  height: 50px;
+  width: 380px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  color: white;
+  border-radius: 5%;
+  margin: 20px;
+}
+
+.textMade {
+  text-align: center;
+  color: black;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  margin-top: 100px;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 100px;
+  padding-top: 40px;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+}
+
+.contactFormContainer {
+  background-image: url(https://cdn.pixabay.com/photo/2018/07/05/09/49/mailbox-3517967_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  min-height: 660px;
+  margin: 0 auto;
+}
+
+.contactFormWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.contactFormInputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.formTitle {
+  margin-right: 20px;
+}
+/*------Navigation styles------*/
+
+.navigationList {
+  position: relative;
+  list-style: none;
+  color: #000;
+  font-size: 20px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+}
+.navigationList:hover .navigationLinksWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.navigationLink {
+  color: #000;
+  font-size: 12px;
+}
+.navigationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigationItem {
+  color: #000;
+  font-size: 20px;
+  height: 50px;
+}
+.navigationLinksWrap {
+  display: none;
+  position: absolute;
+}
+.navigationA {
+  text-decoration: none;
+}

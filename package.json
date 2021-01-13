@@ -1,0 +1,18 @@
+{
+  "name": "npmtest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files ./**/*",
+    "scss": "node-sass --output-style compressed -o dist/css src/scss",
+    "watch-css": "nodemon -e scss -x \"npm run scss\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}
