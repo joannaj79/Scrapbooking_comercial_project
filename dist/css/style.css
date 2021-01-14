@@ -24,62 +24,71 @@ header .navigationList {
   display: inline-block;
   text-align: center;
   float: right;
-}
-
-/* header > nav ul > li > a {
-  height: 50px;
-  padding: 30px 20px;
-  display: inline-block;
-  color: black;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Dancing Script", cursive;
-  font-size: 20px;
-} */
-
-header > nav ul > li > a:hover {
-  color: #44e4ed;
 }
 
-.row::after,
-.row::before {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.row p {
-  text-align: center;
-  margin: 0;
+header .navigationInfo:hover {
+  color: gold;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 2s;
+  text-decoration: none;
 }
 
 nav .container {
   max-width: 30%;
 }
-nav .logo h2 {
+nav .logoName {
   color: black;
   font-size: 50px;
   font-weight: 200px;
   font-family: "Dancing Script", cursive;
   height: 110px;
 }
-.navigation ul li a {
-  display: block;
+
+/*------Navigation styles------*/
+
+.navigationList {
+  position: relative;
+  list-style: none;
+  color: #000;
+  font-size: 20px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+}
+.navigationList:hover .navigationLinksWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.navigationLink {
+  color: #000;
+  font-size: 12px;
+}
+.navigationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigationItem {
+  color: #000;
+  font-size: 20px;
+  height: 50px;
+}
+.navigationLinksWrap {
+  display: none;
   position: absolute;
 }
-.container {
-  margin: 0 auto;
-  width: 100%;
-  display: flex;
-}
-.menu ul li a {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
+
 .navigation:hover .carousel {
   margin-top: 50vh;
 }
+
+/*------Carousel section------*/
+
 .carouselContainer {
   max-width: 80%;
   height: 30%;
@@ -157,12 +166,6 @@ p {
   font-family: "Dancing Script", cursive;
   height: 110px;
 }
-
-/* 
-.carousel-inner > .item > img .img-fluid {
-  max-width: 100%;
-  height: auto;
-} */
 
 .photoscontainer {
   padding-top: 50px;
@@ -307,44 +310,4 @@ footer {
 
 .formTitle {
   margin-right: 20px;
-}
-/*------Navigation styles------*/
-
-.navigationList {
-  position: relative;
-  list-style: none;
-  color: #000;
-  font-size: 20px;
-  height: 50px;
-  margin: 0;
-  padding: 0;
-  width: 500px;
-}
-.navigationList:hover .navigationLinksWrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-.navigationLink {
-  color: #000;
-  font-size: 12px;
-}
-.navigationContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.navigationItem {
-  color: #000;
-  font-size: 20px;
-  height: 50px;
-}
-.navigationLinksWrap {
-  display: none;
-  position: absolute;
-}
-.navigationA {
-  text-decoration: none;
 }
