@@ -11,28 +11,19 @@
 
 /*-----Navigation Section -----*/
 
-
 /*------Slider Section -------*/
 
 header {
   background: white;
 }
 
-header li {
-  display: inline-block;
-}
-
-header > nav ul {
+header .navigationList {
   padding: 0;
   list-style-type: none;
   font-family: "Dancing Script", cursive;
   display: inline-block;
   text-align: center;
   float: right;
-}
-
-header > nav img {
-  padding: 10px 0;
 }
 
 /* header > nav ul > li > a {
