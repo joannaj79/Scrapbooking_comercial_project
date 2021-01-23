@@ -220,45 +220,46 @@
     </section>
     <section class="contactFormContainer" id="kontakt">
       <div class="contactFormWrapper">
-        <div class="item" data-aos="fade-up" data-aos-once="true"></div>
-        <h1 class="formTitle">Formularz Kontaktowy</h1>
-        <form class="contactForm">
-          <div class="contactFormInputContainer half left cf">
+        <div class="items" data-aos="fade-up" data-aos-once="true">
+          <h1 class="formTitle">Formularz Kontaktowy</h1>
+          <form class="contactForm">
+            <div class="contactFormInputContainer half left cf">
+              <input
+                class="formInput forms"
+                type="text"
+                id="input-imię"
+                placeholder="Imię"
+              />
+              <input
+                class="formInput forms"
+                type="email"
+                id="input-email"
+                placeholder="Email"
+              />
+              <input
+                class="formInput forms"
+                type="text"
+                id="input-temat"
+                placeholder="Temat"
+              />
+            </div>
+            <div class="contactFormTextArea half right cf">
+              <textarea
+                class="message"
+                name="message"
+                type="text"
+                id="input-message"
+                placeholder="Wiadomość"
+              ></textarea>
+            </div>
             <input
-              class="formInput forms"
-              type="text"
-              id="input-imię"
-              placeholder="Imię"
+              class="button"
+              type="submit"
+              value="Wyślij"
+              id="input-submit"
             />
-            <input
-              class="formInput forms"
-              type="email"
-              id="input-email"
-              placeholder="Email"
-            />
-            <input
-              class="formInput forms"
-              type="text"
-              id="input-temat"
-              placeholder="Temat"
-            />
-          </div>
-          <div class="contactFormTextArea half right cf">
-            <textarea
-              class="message"
-              name="message"
-              type="text"
-              id="input-message"
-              placeholder="Wiadomość"
-            ></textarea>
-          </div>
-          <input
-            class="button"
-            type="submit"
-            value="Wyślij"
-            id="input-submit"
-          />
-        </form>
+          </form>
+        </div>
       </div>
     </section>
     <section class="textMade">
