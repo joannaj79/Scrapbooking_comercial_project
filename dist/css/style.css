@@ -171,7 +171,7 @@ nav .logoName {
 }
 
 .aboutMe {
-  background-color: black;
+  background-color: white;
   max-width: 80%;
   margin-top: 10px;
   padding-left: 250px;
@@ -179,22 +179,9 @@ nav .logoName {
   margin-top: 200px;
 }
 
-.aboutMe > h1,
-p {
-  text-align: center;
-  background-color: black;
-  color: white;
-  font-family: "Dancing Script", cursive;
-}
-
-.aboutmeImages img {
-  display: inline-block;
-  width: 376px;
-  height: 250px;
-}
-
-.aboutmeImages {
-  margin-left: 20px;
+.aboutMe img {
+  width: 50%;
+  height: 100%;
 }
 
 .textBooking {
@@ -356,16 +343,7 @@ footer {
   display: flex;
   justify-content: flex-end;
 }
-.item {
-  width: 200px;
-  height: 200px;
-  margin: 50px auto;
-  padding-top: 75px;
-  background: #ccc;
-  text-align: center;
-  color: #fff;
-  font-size: 3em;
-}
+
 .borderLineContainer {
   width: 25%;
   margin: 0 auto;
