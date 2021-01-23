@@ -315,7 +315,7 @@ footer {
   font-family: "Dancing Script", cursive;
 }
 
-.contactFormContainer {
+.contactFormContainer .item {
   background-image: url(https://cdn.pixabay.com/photo/2018/07/05/09/49/mailbox-3517967_1280.jpg);
   background-position: center;
   background-repeat: no-repeat;
