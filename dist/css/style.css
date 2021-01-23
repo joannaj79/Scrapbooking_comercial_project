@@ -183,15 +183,15 @@ nav .logoName {
   width: 50%;
   height: 100%;
 }
-
-.textBooking {
-  margin-top: 100px;
-  text-align: center;
-  color: black;
-  font-size: 100px;
-  font-weight: bold;
+.person {
   font-family: "Dancing Script", cursive;
-  height: 110px;
+  background-color: grey;
+}
+
+.textAboutme {
+  font-family: "Dancing Script", cursive;
+  background-color: grey;
+}
 }
 
 .photoscontainer {
@@ -282,14 +282,6 @@ body {
   margin: 20px;
 }
 
-.textMade {
-  text-align: center;
-  color: black;
-  font-size: 100px;
-  font-weight: bold;
-  font-family: "Dancing Script", cursive;
-  margin-top: 100px;
-}
 footer {
   background-color: black;
   color: white;
