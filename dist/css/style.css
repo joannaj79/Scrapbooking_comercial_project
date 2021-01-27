@@ -169,32 +169,84 @@ nav .logoName {
   filter: brightness(80%);
   opacity: 1;
 }
+.row {
+  position: relative;
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
 
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.item-left {
+  animation: fadeInUp 2s;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.item-right {
+  animation: fadeInLeft 2s;
+  background: #051c26;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.col-6 {
+  padding: 0;
+}
 .aboutMe {
-  background-color: white;
   max-width: 100%;
   margin-top: 10px;
-  padding-left: 250px;
   margin: 0 auto;
   margin-top: 200px;
 }
-
+.item {
+  padding: 70px;
+  width: 60%;
+  position: relative;
+}
 .aboutMe img {
-  width: 50%;
-  height: 100%;
+  width: 44.2%;
+  height: auto;
 }
 .person {
   font-family: "Dancing Script", cursive;
-  background-color: grey;
+  width: 80%;
+  margin: 0 auto;
   font-size: 50px;
   height: 250px;
+  color: #fff;
 }
 
 .textAboutme {
   font-family: "Dancing Script", cursive;
-  background-color: grey;
   height: 250px;
   font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
 }
 
 .photoscontainer {
