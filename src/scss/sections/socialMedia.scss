@@ -1,0 +1,23 @@
+.socialMedia {
+  width: 50%;
+  margin: 100px auto;
+  .social {
+    display: flex;
+    justify-content: center;
+    .linkIcon {
+      background-color: #2f1e28;
+      font-size: 30px;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 5px;
+      .svgIcon {
+        fill: $textColor;
+        width: 70px;
+        height: 70px;
+        &:hover {
+          fill: $generalColor;
+        }
+      }
+    }
+  }
+}

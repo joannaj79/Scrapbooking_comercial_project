@@ -1,0 +1,18 @@
+@mixin flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@mixin flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+@mixin formInput {
+  width: 100%;
+  margin-right: 20px;
+  color: $inputColor;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid $inputBorder;
+}

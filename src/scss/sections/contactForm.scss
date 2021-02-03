@@ -1,0 +1,63 @@
+.contactFormContainer {
+  display: flex;
+  .items {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    min-height: 590px;
+    margin: 0 auto;
+  }
+  .contactFormWrapper {
+    width: 100%;
+    @include flex-end;
+    flex-direction: column;
+    .formTitle {
+      font-weight: bold;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .contactForm {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      .contactFormInputContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        .inputWrapper {
+          display: flex;
+        }
+        .formInput {
+          min-height: 50px;
+          @include formInput;
+        }
+        .messageTextArea {
+          min-height: 200px;
+          @include formInput;
+        }
+      }
+      .button {
+        height: 50px;
+        width: 20%;
+        opacity: 1;
+        color: $textColor;
+        margin-top: 20px;
+        outline: none;
+        border: none;
+        background-color: $navigationScroll;
+        &:hover {
+          color: $generalColor;
+        }
+      }
+      ::placeholder {
+        color: #888;
+      }
+    }
+  }
+}

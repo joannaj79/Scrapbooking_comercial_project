@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "browser-sync start --server --files ./**/*",
-    "scss": "node-sass --output-style compressed -o dist/css src/scss",
+    "scss": "node-sass --output-style compressed -o dist/css src/scss/style.scss",
     "watch-css": "nodemon -e scss -x \"npm run scss\""
   },
   "keywords": [],
@@ -13,7 +13,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "aos": "^2.3.4",
-    "browser-sync": "^2.26.13"
+    "browser-sync": "^2.26.13",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^5.0.0"
   }
 }
