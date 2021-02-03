@@ -4,16 +4,18 @@
   .social {
     display: flex;
     justify-content: center;
+
     .linkIcon {
       background-color: #2f1e28;
       font-size: 30px;
       cursor: pointer;
       padding: 10px;
-      border-radius: 5px;
+      border-radius: 10px;
+      margin-right: 40px;
       .svgIcon {
         fill: $textColor;
-        width: 70px;
-        height: 70px;
+        width: 40px;
+        height: 40px;
         &:hover {
           fill: $generalColor;
         }
