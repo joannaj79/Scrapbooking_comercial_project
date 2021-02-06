@@ -5,11 +5,11 @@
   background-image: url(../images/formphotos/13.jpeg);
   background-size: cover;
   background-position: center;
-  padding-left: 50px;
+  padding-left: 40px;
   .social {
     display: flex;
     justify-content: center;
-    padding-top: 260px;
+    padding-top: 270px;
     .linkIcon {
       background-color: $navigationScroll;
       font-size: 10px;
@@ -28,14 +28,12 @@
     }
   }
 }
-.emailPost {
-  height: 400px;
-  width: 300px;
-}
+
 .email {
   display: flex;
   align-items: flex-end;
   padding-left: 200px;
   font-size: $navigationText;
   color: $black;
+  font-family: "Dancing Script", cursive;
 }
