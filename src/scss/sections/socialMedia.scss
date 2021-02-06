@@ -1,21 +1,22 @@
 .socialMedia {
   width: 50%;
   margin: 100px auto;
+  background-color: $generalColor;
+  height: 200px;
   .social {
     display: flex;
     justify-content: center;
-
     .linkIcon {
-      background-color: #2f1e28;
-      font-size: 20px;
+      background-color: $navigationScroll;
+      font-size: 10px;
       cursor: pointer;
       padding: 10px;
       border-radius: 10px;
       margin-right: 40px;
       .svgIcon {
         fill: $textColor;
-        width: 40px;
-        height: 40px;
+        width: 25px;
+        height: 25px;
         &:hover {
           fill: $generalColor;
         }

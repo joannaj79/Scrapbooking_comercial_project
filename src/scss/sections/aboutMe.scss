@@ -2,8 +2,8 @@
   width: 100%;
   margin-top: 10px;
   margin: 0 auto;
-  margin-top: 200px;
   overflow: hidden;
+  text-align: center;
   .row {
     position: relative;
     .col-7,
@@ -24,10 +24,11 @@
       flex-direction: column;
       justify-content: center;
       min-height: 499px;
+
       .aboutMeTitle {
         width: 80%;
         margin: 0 auto;
-        font-size: $sectionTitleFontSize;
+        font-size: $navigaionFontSize;
         color: $textColor;
       }
       .aboutMeText {
