@@ -2,11 +2,11 @@
   width: 25%;
   margin: 0 auto;
   .borderLine {
+    display: none;
     width: 100%;
     height: 2px;
     border-bottom: 2px solid #888;
     margin: 50px 0;
-
     @keyframes mymove {
       from {
         width: 0%;

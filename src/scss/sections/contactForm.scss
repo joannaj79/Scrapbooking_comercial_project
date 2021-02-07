@@ -1,7 +1,6 @@
 .contactFormContainer {
   display: flex;
   width: 90%;
-  background-color: #888888;
   .items {
     background-position: center;
     background-repeat: no-repeat;
@@ -10,6 +9,7 @@
     min-height: 380px;
     margin: 0 auto;
     font-size: 20px;
+
     .formTitle {
       padding-left: 10px;
     }
@@ -28,7 +28,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-end;
+      align-items: flex-start;
       width: 100%;
       margin: 0;
       padding: 0;
@@ -62,9 +62,7 @@
         width: 15%;
         opacity: 1;
         color: $textColor;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-right: 645px;
+        margin: 20px 30px;
         outline: none;
         border: none;
         border-radius: 10px;

@@ -2,5 +2,16 @@ body {
   font-family: "Dancing Script", cursive;
 }
 .section {
-  padding-top: 200px;
+  padding-top: 130px;
+  overflow: hidden;
+}
+.sectionLine {
+  padding-top: 130px;
+}
+.bottomLine {
+  padding: 130px 0;
+}
+
+.scrolled {
+  background-color: $navigationScroll !important;
 }

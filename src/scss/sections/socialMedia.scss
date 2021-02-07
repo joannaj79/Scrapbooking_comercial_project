@@ -11,7 +11,22 @@
     justify-content: center;
     padding-top: 270px;
     .linkIcon {
-      background-color: $navigationScroll;
+      background-image: linear-gradient(
+        to right top,
+        #f89b0a,
+        #c7b416,
+        #95c44a,
+        #61ce7e,
+        #26d2af,
+        #1ed5b5,
+        #13d9bb,
+        #00dcc1,
+        #4ee09c,
+        #85e171,
+        #bbdd43,
+        #f2d313
+      );
+      // background-color: $navigationScroll;
       font-size: 10px;
       cursor: pointer;
       padding: 10px;
@@ -22,18 +37,16 @@
         width: 25px;
         height: 25px;
         &:hover {
-          fill: #46d1d9;
+          fill: $black;
         }
       }
     }
   }
-}
-
-.email {
-  display: flex;
-  align-items: flex-end;
-  padding-left: 200px;
-  font-size: $navigationText;
-  color: $black;
-  font-family: "Dancing Script", cursive;
+  .email {
+    display: flex;
+    align-items: flex-end;
+    font-size: $navigationText;
+    color: $textColor;
+    font-family: "Dancing Script", cursive;
+  }
 }
