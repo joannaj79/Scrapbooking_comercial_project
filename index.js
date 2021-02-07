@@ -46,3 +46,8 @@ $(function () {
     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
   });
 });
+document.querySelector("#test").addEventListener("directionChange", (event) => {
+  console.log(
+    `Action: ${event.detail.action} Direction: ${event.detail.direction}`
+  );
+});

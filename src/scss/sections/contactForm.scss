@@ -58,8 +58,8 @@
         }
       }
       .button {
-        height: 40px;
-        width: 15%;
+        height: 56px;
+        width: 30%;
         opacity: 1;
         color: $textColor;
         margin: 20px 30px;
@@ -69,7 +69,7 @@
         background-color: $navigationScroll;
         text-align: center;
         &:hover {
-          color: $generalColor;
+          color: #10d9bc;
         }
       }
       ::placeholder {
