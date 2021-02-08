@@ -46,8 +46,9 @@ $(function () {
     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
   });
 });
-document.querySelector("#test").addEventListener("directionChange", (event) => {
-  console.log(
-    `Action: ${event.detail.action} Direction: ${event.detail.direction}`
-  );
+
+require(["./lightgallery.js"], function () {
+  require(["./lg-zoom.js", "./lg-thumbnail.js"], function () {
+    lightGallery(document.getElementById("lightgallery"));
+  });
 });
